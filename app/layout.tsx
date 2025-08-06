@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { ThemeProvider } from "@/components/theme-provider";
 import { Navbar } from "@/components/navbar";
-import { Space_Mono, Space_Grotesk, League_Spartan } from "next/font/google";
+import { Space_Mono, Space_Grotesk, League_Spartan, Urbanist } from "next/font/google";
 import "@/styles/globals.css";
 
 // const regularFont = Space_Grotesk({
@@ -18,7 +18,7 @@ const codeFont = Space_Mono({
   weight: "400",
 });
 
-const regularFont = League_Spartan({
+const regularFont = Urbanist({
   subsets: ["latin"],
   variable: "--font-regular",
   display: "swap",
